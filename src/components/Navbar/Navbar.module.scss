@@ -1,0 +1,209 @@
+@import '../../styles/abstracts/variables';
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $header-height;
+  padding: 0 2rem;
+  background-color: #262626;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  .logo img {
+    max-height: 50px;
+  }
+
+  .navLinks {
+    ul {
+      display: flex;
+      gap: 2rem;
+
+      li {
+        a {
+          font-weight: 600;
+          color: #fff;
+          font-family: $font-heading;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  .bookNowBtn {
+    font-weight: 600;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba($primary-color, 0.3);
+    transition: background-color 0.3s ease;
+    white-space: nowrap; // Prevents text wrapping
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      box-shadow: 0 4px 12px rgba($primary-color, 0.5);
+    }
+  }
+
+  .hamburger {
+    display: none;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  // Mobile Navigation
+  .navMobile {
+    display: none;
+    flex-direction: column;
+    background-color: #262626;
+    position: absolute;
+    top: $header-height;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+
+    a {
+      padding: 0.75rem;
+      font-size: 1.2rem;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    &.active {
+      display: flex;
+      animation: slideDown 0.3s ease-in-out;
+    }
+  }
+
+  .bookNowBtnMobile {
+    font-weight: 600;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 1rem;
+    width: 80%; // Adjust width for mobile
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  .languageSwitcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+
+    .flagButton {
+      background: transparent;
+      border: 2px solid transparent;
+      padding: 0.25rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 30px;
+        height: 20px;
+        border-radius: 3px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        border-color: $primary-color;
+      }
+
+      &.active {
+        border-color: $primary-color;
+        box-shadow: 0 0 8px rgba($primary-color, 0.4);
+      }
+    }
+  }
+
+  .languageSwitcherMobile {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    .flagButton {
+      background: transparent;
+      border: 2px solid transparent;
+      padding: 0.25rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 30px;
+        height: 20px;
+        border-radius: 3px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        border-color: $primary-color;
+      }
+
+      &.active {
+        border-color: $primary-color;
+        box-shadow: 0 0 8px rgba($primary-color, 0.4);
+      }
+    }
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .bookNowBtn {
+    display: none; // Hide desktop button
+  }
+}

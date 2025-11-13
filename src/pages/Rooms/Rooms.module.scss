@@ -1,0 +1,113 @@
+@import '../../styles/abstracts/variables'; // or wherever you keep variables
+@import '../../styles/abstracts/mixins';    // if you have mixins
+
+.roomsPage {
+  /* entire page container */
+
+  .heroSection {
+    background: rgba(0, 0, 0, 0.7) url('../../assets/images/hero.jpg') center/cover no-repeat;
+    /* 
+      Alternatively, if you have a dark overlay 
+      or a gradient, you can do:
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(...);
+    */
+    padding: 6rem 2rem;
+    text-align: center;
+    position: relative;
+
+    .heroContent {
+      color: #fff;
+      max-width: 800px;
+      margin: 0 auto;
+
+      .heroTitle {
+        font-size: 3rem;
+        font-family: $font-heading;
+        margin-bottom: 1rem;
+      }
+
+      .breadcrumb {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        span {
+          margin: 0 0.3rem;
+        }
+
+        .separator {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .gridSection {
+    background-color: #f9f7f2; // or your off-white variable
+    padding: 4rem 2rem;
+
+    .grid {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+      }
+
+      .roomCard {
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: translateY(-3px);
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+
+        .overlay {
+          position: absolute;
+          bottom: 1rem;
+          left: 1rem;
+          color: #fff;
+
+          h3 {
+            font-size: 1.3rem;
+            font-family: $font-heading;
+            margin-bottom: 0.2rem;
+          }
+          p {
+            font-size: 0.9rem;
+            font-weight: 600;
+          }
+        }
+
+        /* Optional gradient for better text contrast */
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 40%;
+          background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
+        }
+      }
+    }
+  }
+}

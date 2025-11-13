@@ -1,0 +1,69 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.heroSection {
+  padding: 6rem 2rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .heroTitle {
+      font-family: $font-heading;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+
+      @media (max-width: 992px) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 2rem;
+      }
+    }
+
+    .breadcrumb {
+      font-size: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 0.8rem;
+      }
+
+      .separator {
+        opacity: 0.7;
+        margin: 0 0.3rem;
+      }
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
+
+  // Responsive padding and layout adjustments
+  @media (max-width: 992px) {
+    padding: 5rem 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 4rem 1rem;
+  }
+
+  @media (max-width: 576px) {
+    padding: 3rem 1rem;
+  }
+}

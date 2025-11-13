@@ -1,0 +1,100 @@
+@import '../../styles/abstracts/variables';
+
+.testimonialSection {
+  background-color: $secondary-color;
+  color: #fff;
+  text-align: center;
+  padding: $spacing-section 2rem;
+  position: relative;
+
+  h2 {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-family: $font-heading;
+    letter-spacing: 1px;
+    color: #fff;
+
+    @media (max-width: 576px) {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .testimonialCard {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    padding: 2rem;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .clientImage {
+      margin-bottom: 1rem;
+
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid $primary-color;
+
+        @media (max-width: 576px) {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+
+    .testimonialText {
+      .stars {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: $primary-color;
+
+        @media (max-width: 576px) {
+          font-size: 1.2rem;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        opacity: 0.9;
+        font-style: italic;
+
+        @media (max-width: 576px) {
+          font-size: 0.9rem;
+        }
+      }
+
+      h4 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+
+        @media (max-width: 576px) {
+          font-size: 1rem;
+        }
+      }
+
+      span {
+        font-size: 0.9rem;
+        opacity: 0.7;
+
+        @media (max-width: 576px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

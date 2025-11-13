@@ -1,0 +1,275 @@
+{
+    "navbar": {
+        "home": "Home",
+        "rooms": "Rooms",
+        "about": "About Us",
+        "contact": "Contact",
+        "bookNow": "Book Now"
+    },
+    "room": {
+        "description": "Description of Room",
+        "facilities": "Room Facilities"
+    },
+    "booking": {
+        "heroTitle": "Book Your Stay",
+        "personalInfo": "Personal Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "preferredLanguage": "Preferred Language",
+        "currency": "Preferred Currency",
+        "selectLanguage": "Select Language",
+        "selectCurrency": "Select Currency",
+        "stayDates": "Stay Dates",
+        "checkIn": "Check-In Date",
+        "checkOut": "Check-Out Date",
+        "roomsAndGuests": "Rooms & Guests",
+        "roomType": "Room Type",
+        "selectRoomType": "Select Room Type",
+        "adults": "Adults",
+        "childrenUnder2": "Children Under 2",
+        "children2to12": "Children 2-12 Years",
+        "children12to18": "Children 12-18 Years",
+        "addRoom": "Add Another Room",
+        "removeRoom": "Remove Room",
+        "specialRequests": "Special Requests (Optional)",
+        "sendInquiry": "Send Inquiry",
+        "submitting": "Sending...",
+        "summaryTitle": "Your Inquiry Summary",
+        "notSelected": "Not Selected",
+        "nights": "Nights",
+        "room": "Room",
+        "type": "Type",
+        "note": "Important Note",
+        "noteText": "We will email you the availability details and pricing for your requested stay. Your booking is not final until you confirm via the email link.",
+        "policies": "Hotel Policies",
+        "policy1": "Check-in: 2:00 PM | Check-out: 12:00 PM",
+        "policy2": "Cancellation policy applies as per terms",
+        "policy3": "Valid ID required at check-in",
+        "successTitle": "Inquiry Sent Successfully!",
+        "successMessage": "Thank you for your inquiry. We will review your request and send you availability and pricing details shortly.",
+        "errorTitle": "Submission Failed",
+        "errorMessage": "Please check your information and try again.",
+        "roomTypes": {
+            "economy-single": "Standard Single Room",
+            "superior-single": "Superior Single Room",
+            "economy-double": "Standard Double Room",
+            "superior-double": "Superior Double Room",
+            "triple": "Triple Room",
+            "suite": "Luxury Suite"
+        }
+    },
+    "bookingForm": {
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "availability": "Check Availability"
+    },
+    "facilities": {
+        "subHeading": "Exceptional Services",
+        "mainHeading": "Hotel Facilities",
+        "items": [
+            {
+                "title": "24/7 Room Service",
+                "description": "Enjoy personalized in-room dining at any hour, ensuring ultimate comfort throughout your stay at Hôtel Palais Royal."
+            },
+            {
+                "title": "Private Airport Transfer",
+                "description": "Arrive in style with our hassle-free airport pickup and drop-off service, offering you a seamless travel experience from doorstep to lobby."
+            },
+            {
+                "title": "High-Speed Wi-Fi",
+                "description": "Stay connected for work or leisure with complimentary high-speed internet access available in all rooms and public spaces."
+            },
+            {
+                "title": "Gourmet Breakfast",
+                "description": "Start your day with a lavish breakfast spread, curated by our expert chefs to suit every palate."
+            },
+            {
+                "title": "Rooftop Lounge",
+                "description": "Unwind at our luxurious rooftop lounge with panoramic city views, signature cocktails, and a relaxed ambiance."
+            },
+            {
+                "title": "Valet Parking",
+                "description": "Enjoy peace of mind with our professional valet parking service, making arrivals and departures effortless."
+            }
+        ]
+    },
+    "footer": {
+        "about": {
+            "title": "About Us",
+            "description": "Hôtel Palais Royal, located in the heart of Sfax, offers an exceptional experience combining luxury, comfort, and traditional Tunisian hospitality."
+        },
+        "quickLinks": {
+            "title": "Quick Links",
+            "home": "Home",
+            "rooms": "Rooms & Suites",
+            "dining": "Dining",
+            "contact": "Contact Us"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "address": "Route Mahdia Km 1, 3099 Sfax, Tunisia",
+            "phone": "Phone: +216 70 222 000",
+            "email": "Email: info@hotelpalaisroyal.com"
+        },
+        "socialMedia": {
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "instagram": "Instagram"
+        },
+        "copyright": "© {{year}} Hôtel Palais Royal - Sfax. All rights reserved."
+    },
+    "hero": {
+        "heading": "Enjoy Life With The Great Moments",
+        "subtitle": "Unique Place And Luxury Hotel",
+        "button": "Rooms & Suites"
+    },
+    "services": {
+        "subheading": "Exceptional Services",
+        "servicesList": [
+            {
+                "subheading": "MODERN",
+                "title": "Conference & Meeting Facilities",
+                "description": "Host successful meetings and events with our fully equipped conference rooms and banquet facilities.",
+                "buttonText": "Discover More"
+            },
+            {
+                "subheading": "DISCOVER",
+                "title": "La Bohème Restaurant",
+                "description": "Experience the best of Mediterranean, Tunisian, and international cuisine at our renowned La Bohème Restaurant.",
+                "buttonText": "Discover More"
+            },
+            {
+                "subheading": "RELAX",
+                "title": "Café & Lounge",
+                "description": "Relax in our cozy and elegant Café & Lounge, where you can enjoy freshly brewed coffee and light snacks.",
+                "buttonText": "Discover More"
+            },
+            {
+                "subheading": "ELEVATE",
+                "title": "Rooftop Bar & Lounge",
+                "description": "Take in breathtaking panoramic views of Sfax from our elegant rooftop bar.",
+                "buttonText": "Discover More"
+            }
+        ]
+    },
+    "rooms": {
+        "subheading": "Discover Comfort & Elegance",
+        "mainHeading": "Our Luxury Rooms & Suites",
+        "detailsButton": "View Details",
+        "roomList": [
+            {
+                "title": "Double Standard Room",
+                "description": "Cozy and well-furnished, perfect for couples or business travelers.",
+                "slug": "economy-double"
+            },
+            {
+                "title": "Superior Double Room",
+                "description": "Spacious room with elegant decor and a king-sized bed for a relaxing stay.",
+                "slug": "superior-double"
+            },
+            {
+                "title": "Single Standard Room",
+                "description": "Ideal for solo travelers, offering a comfortable bed and essential amenities.",
+                "slug": "economy-single"
+            },
+            {
+                "title": "Superior Single Room",
+                "description": "Enjoy extra space and refined decor in this room designed for ultimate comfort.",
+                "slug": "superior-single"
+            },
+            {
+                "title": "Luxury Suite",
+                "description": "Our finest offering, with separate living spaces and premium amenities.",
+                "slug": "suite"
+            },
+            {
+                "title": "Triple Room",
+                "description": "Perfect for families or groups, offering three beds and plenty of space to unwind.",
+                "slug": "triple"
+            }
+        ]
+    },
+    "about": {
+        "heroTitle": "About Us",
+        "hotelIntro": "Welcome to Hôtel Palais Royal, where elegance meets traditional Tunisian hospitality.",
+        "mainHeading": "A Haven of Comfort and Luxury",
+        "subHeading": "Hôtel Palais Royal, Sfax",
+        "features": {
+            "luxuryRooms": "Luxury Rooms & Suites",
+            "dining": "Fine Mediterranean Dining"
+        },
+        "ctaButton": "Discover More",
+        "bookingNow": "Book Now",
+        "culinaryTitle": "Savor Culinary Excellence",
+        "culinaryDescription": "Our on-site restaurant, La Bohème, offers a curated menu combining Mediterranean, Tunisian, and international cuisine."
+    },
+    "contact": {
+        "heroTitle": "Contact Us",
+        "emailPrompt": "Send Us an Email",
+        "mainHeading": "We’d Love to Hear from You",
+        "needHelp": "Need Assistance?",
+        "description": "Our team is dedicated to ensuring your stay at Hôtel Palais Royal is exceptional. Feel free to reach out for any inquiries or special requests.",
+        "contactUs": "Contact Us",
+        "address": "Route Mahdia Km 1, 3099 Sfax, Tunisia",
+        "phone": "Phone",
+        "email": "Email",
+        "reset": "Reset",
+        "name": "Name",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send Message"
+    },
+    "roomDetails": {
+        "heroTitle": "Room Details",
+        "roomNotFound": "Room not found!",
+        "descriptionHeading": "Room Description",
+        "roomSize": "Room Size",
+        "beds": "Beds",
+        "occupancy": "Occupancy",
+        "view": "View",
+        "facilitiesHeading": "Room Facilities",
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "guests": "Guests",
+        "oneGuest": "1 Guest",
+        "twoGuests": "2 Guests",
+        "threeGuests": "3 Guests",
+        "bookNow": "Book Now",
+        "compareRoomsTitle": "Compare Rooms",
+        "compareRooms": {
+            "economy": "Economy Room",
+            "deluxe": "Deluxe Room",
+            "superDeluxe": "Super Deluxe Room"
+        },
+        "shareDetails": {
+            "heading": "Share Details"
+        },
+        "contactForm": {
+            "heading": "Send Us Your Question",
+            "name": "Enter Name",
+            "email": "Enter Email",
+            "phone": "Enter Phone",
+            "message": "Enter Message",
+            "submitButton": "Submit Comment"
+        },
+        "facilities": {
+            "airConditioner": "Air Conditioner",
+            "swimmingPool": "Swimming Pool",
+            "gym": "Gymnasium",
+            "parking": "Parking",
+            "security": "Security",
+            "playground": "Playground"
+        }
+       
+    },
+    "roomsPage": {
+        "heroTitle": "Our Rooms"
+    }
+    ,
+    "breadcrumb": {
+    "home": "Home",
+    "rooms": "Rooms"
+  }
+}

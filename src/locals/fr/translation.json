@@ -1,0 +1,350 @@
+{
+    "navbar": {
+      "home": "Accueil",
+      "rooms": "Chambres",
+      "about": "À propos",
+      "contact": "Contact",
+      "bookNow": "Réservez maintenant"
+
+    },
+    
+    "room": {
+      "description": "Description de la chambre",
+      "facilities": "Équipements de la chambre"
+    },
+    "booking": {
+        "heroTitle": "Réservez votre séjour",
+        "personalInfo": "Informations personnelles",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "Numéro de téléphone",
+        "preferredLanguage": "Langue préférée",
+        "currency": "Devise préférée",
+        "selectLanguage": "Sélectionnez la langue",
+        "selectCurrency": "Sélectionnez la devise",
+        "stayDates": "Dates de séjour",
+        "checkIn": "Date d'arrivée",
+        "checkOut": "Date de départ",
+        "roomsAndGuests": "Chambres et invités",
+        "roomType": "Type de chambre",
+        "selectRoomType": "Sélectionnez le type de chambre",
+        "adults": "Adultes",
+        "childrenUnder2": "Enfants de moins de 2 ans",
+        "children2to12": "Enfants de 2 à 12 ans",
+        "children12to18": "Enfants de 12 à 18 ans",
+        "addRoom": "Ajouter une autre chambre",
+        "removeRoom": "Supprimer la chambre",
+        "specialRequests": "Demandes spéciales (facultatif)",
+        "sendInquiry": "Envoyer la demande",
+        "submitting": "Envoi en cours...",
+        "summaryTitle": "Récapitulatif de votre demande",
+        "notSelected": "Non sélectionné",
+        "nights": "Nuits",
+        "room": "Chambre",
+        "type": "Type",
+        "note": "Note importante",
+        "noteText": "Nous vous enverrons par e-mail les détails de disponibilité et les tarifs pour votre séjour demandé. Votre réservation n'est pas définitive tant que vous ne confirmez pas via le lien dans l'e-mail.",
+        "policies": "Politiques de l'hôtel",
+        "policy1": "Arrivée : 14h00 | Départ : 12h00",
+        "policy2": "La politique d'annulation s'applique selon les conditions",
+        "policy3": "Une pièce d'identité valide est requise à l'arrivée",
+        "successTitle": "Demande envoyée avec succès !",
+        "successMessage": "Merci pour votre demande. Nous examinerons votre demande et vous enverrons les détails de disponibilité et les tarifs sous peu.",
+        "errorTitle": "Échec de l'envoi",
+        "errorMessage": "Veuillez vérifier vos informations et réessayer.",
+        "roomTypes": {
+            "economy-single": "Chambre simple standard",
+            "superior-single": "Chambre simple supérieure",
+            "economy-double": "Chambre double standard",
+            "superior-double": "Chambre double supérieure",
+            "triple": "Chambre triple",
+            "suite": "Suite de luxe"
+        }
+    },
+    "bookingForm": {
+          "checkIn": "Date d'arrivée",
+          "checkOut": "Date de départ",
+          "availability": "Vérifier la disponibilité"
+        }
+        ,
+        "facilities": {
+            "subHeading": "Services Exceptionnels",
+            "mainHeading": "Installations de l'hôtel",
+            "items": [
+              {
+                "title": "Service en Chambre 24h/24",
+                "description": "Profitez d'un service de restauration en chambre personnalisé à toute heure pour un confort ultime tout au long de votre séjour."
+              },
+              {
+                "title": "Transfert Privé depuis l'Aéroport",
+                "description": "Arrivez avec style grâce à notre service de transfert privé de l'aéroport, offrant une expérience de voyage fluide."
+              },
+              {
+                "title": "Wi-Fi Haut Débit",
+                "description": "Restez connecté pour le travail ou les loisirs avec un accès Internet haut débit gratuit dans toutes les chambres et espaces publics."
+              },
+              {
+                "title": "Petit-Déjeuner Gastronomique",
+                "description": "Commencez votre journée avec un buffet gastronomique préparé par nos chefs pour convenir à tous les goûts."
+              },
+              {
+                "title": "Salon sur le Toit",
+                "description": "Détendez-vous dans notre salon luxueux sur le toit avec vue panoramique, cocktails signature et ambiance relaxante."
+              },
+              {
+                "title": "Service de Voiturier",
+                "description": "Profitez de notre service de voiturier professionnel pour des arrivées et des départs sans souci."
+              }
+            ]
+          }
+          ,
+          "footer": {
+    "about": {
+      "title": "À Propos de Nous",
+      "description": "Hôtel Palais Royal, situé au cœur de Sfax, offre une expérience exceptionnelle combinant luxe, confort et hospitalité tunisienne traditionnelle."
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "home": "Accueil",
+      "rooms": "Chambres & Suites",
+      "dining": "Restauration",
+      "contact": "Contactez-Nous"
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "address": "Route Mahdia Km 1, 3099 Sfax, Tunisie",
+      "phone": "Téléphone : +216 70 222 000",
+      "email": "E-mail : info@hotelpalaisroyal.com"
+    },
+    "socialMedia": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    },
+    "copyright": "© {{year}} Hôtel Palais Royal - Sfax. Tous droits réservés."
+  }
+,
+  
+    "hero": {
+      "heading": "Profitez de la vie avec des moments exceptionnels",
+      "subtitle": "Un endroit unique et un hôtel de luxe",
+      "button": "Chambres et Suites"
+    },
+    "services": {
+      "subheading": "Services exceptionnels",
+      "servicesList": [
+        {
+          "subheading": "MODERNE",
+          "title": "Installations de conférences et de réunions",
+          "description": "Organisez des réunions et des événements réussis avec nos salles de conférence et nos espaces de banquet entièrement équipés.",
+          "buttonText": "Découvrir Plus"
+        },
+        {
+          "subheading": "DÉCOUVRIR",
+          "title": "Restaurant La Bohème",
+          "description": "Découvrez le meilleur de la cuisine méditerranéenne, tunisienne et internationale dans notre célèbre restaurant La Bohème.",
+          "buttonText": "Découvrir Plus"
+        },
+        {
+          "subheading": "SE DÉTENDRE",
+          "title": "Café et Salon",
+          "description": "Détendez-vous dans notre café et salon élégant, où vous pourrez déguster un café fraîchement préparé et des collations légères.",
+          "buttonText": "Découvrir Plus"
+        },
+        {
+          "subheading": "ÉLÉVER",
+          "title": "Bar et salon sur le toit",
+          "description": "Profitez de vues panoramiques à couper le souffle sur Sfax depuis notre élégant bar sur le toit.",
+          "buttonText": "Découvrir Plus"
+        }
+      ]
+    },
+    "rooms": {
+      "subheading": "Découvrez le confort et l'élégance",
+      "mainHeading": "Nos chambres et suites de luxe",
+      "detailsButton": "Voir les détails",
+      "roomList": [
+        {
+          "title": "Chambre Double Standard",
+          "description": "Confortable et bien aménagée, parfaite pour les couples ou les voyageurs d'affaires.",
+          "slug": "economy-double"
+        },
+        {
+          "title": "Chambre Double Supérieure",
+          "description": "Chambre spacieuse avec une décoration élégante et un lit king-size pour un séjour relaxant.",
+          "slug": "superior-double"
+        },
+        {
+          "title": "Chambre Simple Standard",
+          "description": "Idéale pour les voyageurs en solo, offrant un lit confortable et des commodités essentielles.",
+          "slug": "economy-single"
+        },
+        {
+          "title": "Chambre Simple Supérieure",
+          "description": "Profitez d'un espace supplémentaire et d'une décoration raffinée pour un confort ultime.",
+          "slug": "superior-single"
+        },
+        {
+          "title": "Suite de Luxe",
+          "description": "Notre meilleure offre, avec des espaces de vie séparés et des équipements haut de gamme.",
+          "slug": "suite"
+        },
+        {
+          "title": "Chambre Triple",
+          "description": "Parfaite pour les familles ou les groupes, offrant trois lits et beaucoup d'espace.",
+          "slug": "triple"
+        }
+      ]
+    }
+  ,
+  
+    "about": {
+      "heroTitle": "À propos de nous",
+      "hotelIntro": "Bienvenue à l’Hôtel Palais Royal, où l'élégance rencontre l'hospitalité traditionnelle tunisienne.",
+      "mainHeading": "Un havre de confort et de luxe",
+      "subHeading": "Hôtel Palais Royal, Sfax",
+      "features": {
+        "luxuryRooms": "Chambres & Suites de luxe",
+        "dining": "Cuisine méditerranéenne raffinée"
+      },
+      "ctaButton": "Découvrir Plus",
+      "bookingNow": "Réservez maintenant",
+      "culinaryTitle": "Savourez l’excellence culinaire",
+      "culinaryDescription": "Notre restaurant sur place, La Bohème, propose un menu combinant des cuisines méditerranéenne, tunisienne et internationale."
+    },
+    "contact": {
+      "heroTitle": "Contactez-nous",
+      "emailPrompt": "Envoyez-nous un e-mail",
+      "mainHeading": "Nous aimerions avoir de vos nouvelles",
+      "needHelp": "Besoin d'assistance?",
+      "description": "Notre équipe est dédiée à rendre votre séjour exceptionnel. N’hésitez pas à nous contacter pour toute demande.",
+      "contactUs": "Contactez-nous",
+      "address": "Route Mahdia Km 1, 3099 Sfax, Tunisie",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "reset": "Réinitialiser",
+      "submit": "Envoyer le message",
+      
+        "name": "Nom",
+        "subject": "Sujet",
+        "message": "Message"
+      
+    },
+    "roomDetails": {
+      "heroTitle": "Détails de la chambre",
+      "roomNotFound": "Chambre introuvable!",
+      "descriptionHeading": "Description de la chambre",
+      "facilitiesHeading": "Équipements de la chambre",
+      "roomSize": "Taille de la chambre",
+      "beds": "Lits",
+      "occupancy": "Occupation",
+      "view": "Vue",
+      "sendQuestion": "Envoyez-nous votre question",
+      "checkIn": "Arrivée",
+      "checkOut": "Départ",
+      "guests": "Invités",
+      "oneGuest": "1 Invité",
+      "twoGuests": "2 Invités",
+      "threeGuests": "3 Invités",
+      "bookNow": "Réserver maintenant",
+      "compareRoomsTitle": "Comparer les chambres",
+      "facilities": {
+        "airConditioner": "Climatisation",
+        "swimmingPool": "Piscine",
+        "gym": "Gymnase",
+        "parking": "Parking",
+        "security": "Sécurité",
+        "playground": "Aire de jeux"
+      },
+      "shareDetails": {
+    "heading": "Partager les détails"
+  },
+  "contactForm": {
+    "heading": "Envoyez-nous votre question",
+    "name": "Entrez le nom",
+    "email": "Entrez l'email",
+    "phone": "Entrez le téléphone",
+    "message": "Entrez le message",
+    "submitButton": "Soumettre un commentaire"
+  }
+    }
+  ,
+  
+    "roomsData": [
+      {
+        "slug": "economy-single",
+        "title": "Chambre Simple Économique",
+        "description": "Une chambre confortable et bien équipée avec un lit queen-size, parfaite pour les voyageurs seuls ou les clients d'affaires recherchant confort et commodité. Profitez d'une salle de bain privée, du Wi-Fi gratuit, d'une télévision à écran plat et plus encore.",
+        "roomInfo": {
+          "size": "300 m²",
+          "beds": "1 Lit Queen",
+          "occupancy": "1 Personne",
+          "view": "Vue sur la ville"
+        }
+      },
+      {
+        "slug": "superior-single",
+        "title": "Chambre Simple Supérieure",
+        "description": "Offrant plus d'espace et de confort, cette chambre dispose d'un lit king-size et d'équipements luxueux pour un séjour relaxant. Inclut une salle de bain privée avec baignoire et un service de chambre 24h/24.",
+        "roomInfo": {
+          "size": "350 m²",
+          "beds": "1 Lit King",
+          "occupancy": "1 Personne",
+          "view": "Vue sur la ville"
+        }
+      },
+      {
+        "slug": "economy-double",
+        "title": "Chambre Double Économique",
+        "description": "Conçue pour les couples ou les amis, cette chambre comprend soit deux lits simples soit un lit queen, offrant confort et intimité. Profitez d'une décoration moderne et d'installations pratiques.",
+        "roomInfo": {
+          "size": "400 m²",
+          "beds": "1 Lit Queen ou 2 Lits Simples",
+          "occupancy": "2 Personnes",
+          "view": "Vue sur la ville"
+        }
+      },
+      {
+        "slug": "superior-double",
+        "title": "Chambre Double Supérieure",
+        "description": "Spacieuse et élégamment décorée, cette chambre dispose d'un lit king-size et d'équipements supérieurs pour améliorer votre séjour. Idéale pour ceux qui recherchent un peu plus de luxe et de style.",
+        "roomInfo": {
+          "size": "450 m²",
+          "beds": "1 Lit King",
+          "occupancy": "2 Personnes",
+          "view": "Vue sur la ville"
+        }
+      },
+      {
+        "slug": "triple",
+        "title": "Chambre Triple",
+        "description": "Idéale pour les petites familles ou les groupes, la chambre triple propose trois lits confortables et un espace supplémentaire pour accueillir plusieurs invités. Tous les équipements modernes sont inclus.",
+        "roomInfo": {
+          "size": "500 m²",
+          "beds": "3 Lits Simples (ou 1 Queen + 1 Lit Simple)",
+          "occupancy": "3 Personnes",
+          "view": "Vue sur la ville"
+        }
+      },
+      {
+        "slug": "suite",
+        "title": "Suite",
+        "description": "L'ultime indulgence, notre suite offre une escapade luxueuse avec un salon séparé, des meubles raffinés et des équipements supérieurs. Certaines suites comprennent un balcon privé avec une vue imprenable sur la ville.",
+        "roomInfo": {
+          "size": "600 m²",
+          "beds": "1 Lit King + Salon",
+          "occupancy": "2 Personnes",
+          "view": "Vue panoramique sur la ville"
+        }
+      }
+    ]
+    ,
+    "roomsPage": {
+    "heroTitle": "Nos Chambres"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "rooms": "Chambres"
+  }
+}

@@ -1,0 +1,257 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/mixins';
+
+.aboutPage {
+  /* HERO */
+  .heroSection {
+    background: rgba(0,0,0,0.6) url('../../assets/images/hero.jpg') center/cover no-repeat;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+
+    .heroContent {
+      max-width: 800px;
+      margin: 0 auto;
+
+      .heroTitle {
+        font-family: $font-heading;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .breadcrumb {
+        font-size: 1rem;
+        .separator {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  /* REUSABLE SECTION WRAPPER */
+  .blockSection {
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* BLOCK ONE */
+  .blockOne {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .mediaContainer {
+      flex: 1;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      .mainImage {
+        flex: 1 1 100%;
+        position: relative;
+        img {
+          width: 100%;
+          border-radius: 6px;
+          object-fit: cover;
+        }
+        .playIcon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(0,0,0,0.3);
+          border-radius: 50%;
+          padding: 1rem;
+          i {
+            font-size: 2rem;
+            color: #fff;
+          }
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          &:hover {
+            background-color: rgba(0,0,0,0.5);
+          }
+        }
+      }
+
+      .secondaryImage {
+        flex: 1 1 100%;
+        max-width: 400px;
+        img {
+          width: 100%;
+          border-radius: 6px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .contentBox {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .subHeading {
+        font-size: 1rem;
+        font-style: italic;
+        color: $primary-color;
+        margin-bottom: 0.5rem;
+      }
+      .mainHeading {
+        font-family: $font-heading;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: $heading-color;
+      }
+      .paragraph {
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        color: $neutral-dark;
+      }
+
+      .features {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+        .featureItem {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          i {
+            color: $primary-color;
+            font-size: 1.2rem;
+          }
+          span {
+            font-weight: 600;
+            color: $neutral-dark;
+          }
+        }
+      }
+
+      .btn {
+        background-color: $primary-color;
+        color: #fff;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 1rem;
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+
+      .bookingNow {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        p {
+          margin: 0;
+          font-weight: 600;
+          color: $neutral-dark;
+        }
+        span {
+          color: $primary-color;
+          font-size: 1.1rem;
+          font-weight: 700;
+        }
+      }
+    }
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+  }
+
+  .blockTwo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  
+    /* The new gallery container */
+    .gallery {
+      flex: 1;
+      display: grid;
+      gap: 1rem;
+      /* 2 columns for mid-sized screens, auto rows. Adjust to your taste */
+      grid-template-columns: repeat(2, 1fr);
+  
+      img {
+        width: 100%;
+        border-radius: 6px;
+        object-fit: cover;
+      }
+    }
+  
+    .textBox {
+      flex: 1;
+  
+      .subHeading {
+        font-size: 1rem;
+        font-style: italic;
+        color: $primary-color;
+        margin-bottom: 0.5rem;
+      }
+      .mainHeading {
+        font-size: 2.5rem;
+        font-family: $font-heading;
+        color: $heading-color;
+        margin-bottom: 1rem;
+      }
+      .paragraph {
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        color: $neutral-dark;
+      }
+  
+      .infoGrid {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+  
+        div {
+          h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-family: $font-heading;
+          }
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+              margin-bottom: 0.5rem;
+              color: $neutral-dark;
+            }
+          }
+        }
+      }
+  
+      .imageGrid {
+        display: flex;
+        gap: 1rem;
+  
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+    }
+  
+    @media (max-width: 992px) {
+      flex-direction: column;
+  
+      .gallery {
+        grid-template-columns: 1fr; /* Make it single column on smaller screens if you like */
+      }
+    }
+  }
+}

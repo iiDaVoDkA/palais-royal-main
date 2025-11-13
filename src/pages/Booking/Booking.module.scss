@@ -1,0 +1,249 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.bookingPage {
+  .heroSection {
+    background: rgba(0, 0, 0, 0.6)
+      url("../../assets/images/hero.jpg") center/cover no-repeat;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+
+    .heroContent {
+      max-width: 800px;
+      margin: 0 auto;
+
+      .heroTitle {
+        font-size: 3rem;
+        font-family: $font-heading;
+        margin-bottom: 1rem;
+      }
+
+      .breadcrumb {
+        font-size: 1rem;
+        .separator {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .mainContainer {
+    display: flex;
+    width: 90%;
+    max-width: 1400px;
+    margin: 2rem auto;
+    gap: 2rem;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    /* LEFT COLUMN: form */
+    .formColumn {
+      flex: 2;
+
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        font-family: $font-heading;
+      }
+
+      .bookingForm {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .section {
+          background-color: #fafafa;
+          padding: 1.5rem;
+          border-radius: 6px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+          h3 {
+            margin-bottom: 1rem;
+            font-family: $font-heading;
+          }
+
+          .formRow {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            @media (max-width: 576px) {
+              flex-direction: column;
+            }
+          }
+
+          .formGroup {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            label {
+              font-weight: 600;
+              margin-bottom: 0.3rem;
+              color: $neutral-dark;
+            }
+            input,
+            select,
+            textarea {
+              padding: 0.6rem;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              font-size: 0.95rem;
+            }
+          }
+
+          .roomCountControls {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            button {
+              background-color: $primary-color;
+              color: #fff;
+              border: none;
+              padding: 0.4rem 1rem;
+              border-radius: 4px;
+              font-weight: 600;
+              cursor: pointer;
+
+              &:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+              }
+            }
+
+            span {
+              font-weight: 600;
+            }
+          }
+
+          .roomBlock {
+            padding: 1rem;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+
+            h4 {
+              font-family: $font-heading;
+              margin-bottom: 0.5rem;
+            }
+
+            .counterRow {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 0.4rem 0;
+
+              label {
+                flex: 1;
+              }
+
+              .counterButtons {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                button {
+                  background-color: #ddd;
+                  border: none;
+                  width: 32px;
+                  height: 32px;
+                  border-radius: 4px;
+                  font-size: 1.2rem;
+                  cursor: pointer;
+                  &:hover {
+                    background-color: #ccc;
+                  }
+                }
+                span {
+                  min-width: 20px;
+                  text-align: center;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+
+        .submitBtn {
+          align-self: flex-start;
+          padding: 0.8rem 1.5rem;
+          background-color: $primary-color;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          font-weight: 600;
+          cursor: pointer;
+          margin-top: 1rem;
+
+          &:hover {
+            background-color: darken($primary-color, 10%);
+          }
+        }
+      }
+    }
+
+    /* RIGHT COLUMN: summary */
+    .infoColumn {
+      flex: 1;
+
+      .infoBox {
+        background-color: #f2f2f2;
+        padding: 1.5rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        position: sticky;
+        top: 2rem;
+
+        @media (max-width: 992px) {
+          position: static;
+          top: auto;
+          margin-top: 1rem;
+        }
+
+        h3 {
+          margin-bottom: 1rem;
+          font-family: $font-heading;
+          font-size: 1.3rem;
+        }
+
+        p {
+          margin: 0.4rem 0;
+          line-height: 1.4;
+        }
+
+        hr {
+          margin: 1rem 0;
+        }
+
+        h4 {
+          margin-bottom: 0.5rem;
+          font-family: $font-heading;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 1rem;
+          li {
+            margin-bottom: 0.3rem;
+          }
+        }
+
+        a {
+          color: $primary-color;
+          text-decoration: underline;
+        }
+
+        .summaryRoom {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
