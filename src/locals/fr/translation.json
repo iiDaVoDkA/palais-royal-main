@@ -195,7 +195,55 @@
           "description": "Parfaite pour les familles ou les groupes, offrant trois lits et beaucoup d'espace.",
           "slug": "triple"
         }
-      ]
+      ],
+      "economySingle": {
+        "title": "Petite Chambre Simple",
+        "description": "Chambre confortable et bien équipée, parfaite pour les voyageurs seuls. Comprend minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
+        "size": "16 m²",
+        "beds": "1 Lit Simple",
+        "occupancy": "1 Personne",
+        "view": "Vue sur la Ville"
+      },
+      "superiorSingle": {
+        "title": "Chambre Simple Supérieure",
+        "description": "Chambre simple spacieuse avec confort amélioré. Comprend minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
+        "size": "21 m²",
+        "beds": "1 Lit Simple",
+        "occupancy": "1 Personne",
+        "view": "Vue sur la Ville"
+      },
+      "economyDouble": {
+        "title": "Chambre Double Standard",
+        "description": "Chambre double confortable, idéale pour les couples ou les amis. Comprend 2 lits simples, minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
+        "size": "16 m²",
+        "beds": "2 Lits Simples",
+        "occupancy": "2 Personnes",
+        "view": "Vue sur la Ville"
+      },
+      "superiorDouble": {
+        "title": "Chambre Double Supérieure",
+        "description": "Chambre double spacieuse et élégamment décorée avec équipements améliorés. Comprend 2 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat, climatisation et Wi-Fi gratuit. Lit bébé disponible sur demande.",
+        "size": "21 m²",
+        "beds": "2 Lits Simples",
+        "occupancy": "2 Personnes",
+        "view": "Vue sur la Ville"
+      },
+      "triple": {
+        "title": "Chambre Triple",
+        "description": "Chambre familiale spacieuse pouvant accueillir jusqu'à 3 adultes et 2 enfants. Comprend 3 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
+        "size": "26 m²",
+        "beds": "3 Lits Simples",
+        "occupancy": "3 Adultes + 2 Enfants",
+        "view": "Vue sur la Ville"
+      },
+      "suite": {
+        "title": "Suite King",
+        "description": "Notre hébergement le plus luxueux avec un salon séparé et un balcon privé. Comprend 1 lit king size (extra-long), machine à café, minibar, bureau, dressing, salle de bain avec baignoire et douche, télévision à écran plat, climatisation et Wi-Fi gratuit.",
+        "size": "58 m²",
+        "beds": "1 Lit King + Salon",
+        "occupancy": "2 Personnes",
+        "view": "Vue Panoramique sur la Ville avec Balcon"
+      }
     }
   ,
   
@@ -268,141 +316,20 @@
     "message": "Entrez le message",
     "submitButton": "Soumettre un commentaire"
   }
-    }
-  ,
-  
-    "roomsData": [
-      {
-        "slug": "economy-single",
-        "title": "Chambre Simple Économique",
-        "description": "Une chambre confortable et bien équipée avec un lit queen-size, parfaite pour les voyageurs seuls ou les clients d'affaires recherchant confort et commodité. Profitez d'une salle de bain privée, du Wi-Fi gratuit, d'une télévision à écran plat et plus encore.",
-        "roomInfo": {
-          "size": "300 m²",
-          "beds": "1 Lit Queen",
-          "occupancy": "1 Personne",
-          "view": "Vue sur la ville"
-        }
-      },
-      {
-        "slug": "superior-single",
-        "title": "Chambre Simple Supérieure",
-        "description": "Offrant plus d'espace et de confort, cette chambre dispose d'un lit king-size et d'équipements luxueux pour un séjour relaxant. Inclut une salle de bain privée avec baignoire et un service de chambre 24h/24.",
-        "roomInfo": {
-          "size": "350 m²",
-          "beds": "1 Lit King",
-          "occupancy": "1 Personne",
-          "view": "Vue sur la ville"
-        }
-      },
-      {
-        "slug": "economy-double",
-        "title": "Chambre Double Économique",
-        "description": "Conçue pour les couples ou les amis, cette chambre comprend soit deux lits simples soit un lit queen, offrant confort et intimité. Profitez d'une décoration moderne et d'installations pratiques.",
-        "roomInfo": {
-          "size": "400 m²",
-          "beds": "1 Lit Queen ou 2 Lits Simples",
-          "occupancy": "2 Personnes",
-          "view": "Vue sur la ville"
-        }
-      },
-      {
-        "slug": "superior-double",
-        "title": "Chambre Double Supérieure",
-        "description": "Spacieuse et élégamment décorée, cette chambre dispose d'un lit king-size et d'équipements supérieurs pour améliorer votre séjour. Idéale pour ceux qui recherchent un peu plus de luxe et de style.",
-        "roomInfo": {
-          "size": "450 m²",
-          "beds": "1 Lit King",
-          "occupancy": "2 Personnes",
-          "view": "Vue sur la ville"
-        }
-      },
-      {
-        "slug": "triple",
-        "title": "Chambre Triple",
-        "description": "Idéale pour les petites familles ou les groupes, la chambre triple propose trois lits confortables et un espace supplémentaire pour accueillir plusieurs invités. Tous les équipements modernes sont inclus.",
-        "roomInfo": {
-          "size": "500 m²",
-          "beds": "3 Lits Simples (ou 1 Queen + 1 Lit Simple)",
-          "occupancy": "3 Personnes",
-          "view": "Vue sur la ville"
-        }
-      },
-      {
-        "slug": "suite",
-        "title": "Suite",
-        "description": "L'ultime indulgence, notre suite offre une escapade luxueuse avec un salon séparé, des meubles raffinés et des équipements supérieurs. Certaines suites comprennent un balcon privé avec une vue imprenable sur la ville.",
-        "roomInfo": {
-          "size": "600 m²",
-          "beds": "1 Lit King + Salon",
-          "occupancy": "2 Personnes",
-          "view": "Vue panoramique sur la ville"
-        }
-      }
-    ]
-    ,
+    },
     "roomsPage": {
-    "heroTitle": "Nos Chambres"
-  },
-  "breadcrumb": {
-    "home": "Accueil",
-    "rooms": "Chambres"
-  },
-  "comingSoon": {
-    "title": "Bientôt Disponible",
-    "subtitle": "Nous travaillons sur quelque chose de spécial",
-    "description": "Cette fonctionnalité est actuellement en développement. Nous travaillons dur pour vous offrir une expérience incroyable. Restez à l'écoute pour les mises à jour!",
-    "backHome": "Retour à l'Accueil",
-    "contactUs": "Contactez-nous",
-    "followUs": "Suivez-nous pour les mises à jour"
-  },
-  "rooms": {
-    "economySingle": {
-      "title": "Petite Chambre Simple",
-      "description": "Chambre confortable et bien équipée, parfaite pour les voyageurs seuls. Comprend minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
-      "size": "16 m²",
-      "beds": "1 Lit Simple",
-      "occupancy": "1 Personne",
-      "view": "Vue sur la Ville"
+      "heroTitle": "Nos Chambres"
     },
-    "superiorSingle": {
-      "title": "Chambre Simple Supérieure",
-      "description": "Chambre simple spacieuse avec confort amélioré. Comprend minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
-      "size": "21 m²",
-      "beds": "1 Lit Simple",
-      "occupancy": "1 Personne",
-      "view": "Vue sur la Ville"
+    "breadcrumb": {
+      "home": "Accueil",
+      "rooms": "Chambres"
     },
-    "economyDouble": {
-      "title": "Chambre Double Standard",
-      "description": "Chambre double confortable, idéale pour les couples ou les amis. Comprend 2 lits simples, minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
-      "size": "16 m²",
-      "beds": "2 Lits Simples",
-      "occupancy": "2 Personnes",
-      "view": "Vue sur la Ville"
-    },
-    "superiorDouble": {
-      "title": "Chambre Double Supérieure",
-      "description": "Chambre double spacieuse et élégamment décorée avec équipements améliorés. Comprend 2 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat, climatisation et Wi-Fi gratuit. Lit bébé disponible sur demande.",
-      "size": "21 m²",
-      "beds": "2 Lits Simples",
-      "occupancy": "2 Personnes",
-      "view": "Vue sur la Ville"
-    },
-    "triple": {
-      "title": "Chambre Triple",
-      "description": "Chambre familiale spacieuse pouvant accueillir jusqu'à 3 adultes et 2 enfants. Comprend 3 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
-      "size": "26 m²",
-      "beds": "3 Lits Simples",
-      "occupancy": "3 Adultes + 2 Enfants",
-      "view": "Vue sur la Ville"
-    },
-    "suite": {
-      "title": "Suite King",
-      "description": "Notre hébergement le plus luxueux avec un salon séparé et un balcon privé. Comprend 1 lit king size (extra-long), machine à café, minibar, bureau, dressing, salle de bain avec baignoire et douche, télévision à écran plat, climatisation et Wi-Fi gratuit.",
-      "size": "58 m²",
-      "beds": "1 Lit King + Salon",
-      "occupancy": "2 Personnes",
-      "view": "Vue Panoramique sur la Ville avec Balcon"
+    "comingSoon": {
+      "title": "Bientôt Disponible",
+      "subtitle": "Nous travaillons sur quelque chose de spécial",
+      "description": "Cette fonctionnalité est actuellement en développement. Nous travaillons dur pour vous offrir une expérience incroyable. Restez à l'écoute pour les mises à jour!",
+      "backHome": "Retour à l'Accueil",
+      "contactUs": "Contactez-nous",
+      "followUs": "Suivez-nous pour les mises à jour"
     }
-  }
 }

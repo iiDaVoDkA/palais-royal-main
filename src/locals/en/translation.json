@@ -189,7 +189,55 @@
                 "description": "Perfect for families or groups, offering three beds and plenty of space to unwind.",
                 "slug": "triple"
             }
-        ]
+        ],
+        "economySingle": {
+            "title": "Small Single Room",
+            "description": "Cozy and well-equipped room perfect for solo travelers. Features include minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.",
+            "size": "16 m²",
+            "beds": "1 Twin Bed",
+            "occupancy": "1 Person",
+            "view": "City View"
+        },
+        "superiorSingle": {
+            "title": "Superior Single Room",
+            "description": "Spacious single room with enhanced comfort. Features include minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.",
+            "size": "21 m²",
+            "beds": "1 Twin Bed",
+            "occupancy": "1 Person",
+            "view": "City View"
+        },
+        "economyDouble": {
+            "title": "Standard Double Room",
+            "description": "Comfortable double room ideal for couples or friends. Features include 2 twin beds, minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV, air conditioning, and complimentary Wi-Fi. Children's cribs available on request.",
+            "size": "16 m²",
+            "beds": "2 Twin Beds",
+            "occupancy": "2 People",
+            "view": "City View"
+        },
+        "superiorDouble": {
+            "title": "Superior Double Room",
+            "description": "Spacious and elegantly decorated double room with enhanced amenities. Features include 2 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV, air conditioning, and complimentary Wi-Fi. Crib available on request.",
+            "size": "21 m²",
+            "beds": "2 Twin Beds",
+            "occupancy": "2 People",
+            "view": "City View"
+        },
+        "triple": {
+            "title": "Triple Room",
+            "description": "Spacious family room accommodating up to 3 adults and 2 children. Features include 3 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub, flat-screen TV, air conditioning, and complimentary Wi-Fi. Cribs available on request.",
+            "size": "26 m²",
+            "beds": "3 Twin Beds",
+            "occupancy": "3 Adults + 2 Children",
+            "view": "City View"
+        },
+        "suite": {
+            "title": "King Suite",
+            "description": "Our most luxurious accommodation featuring a separate living area and private balcony. Includes 1 king bed (extra-long), coffee machine, minibar, desk, walk-in closet, bathroom with both bathtub and shower, flat-screen TV, air conditioning, and complimentary Wi-Fi.",
+            "size": "58 m²",
+            "beds": "1 King Bed + Living Area",
+            "occupancy": "2 People",
+            "view": "Panoramic City View with Balcony"
+        }
     },
     "about": {
         "heroTitle": "About Us",
@@ -279,55 +327,5 @@
     "backHome": "Back to Home",
     "contactUs": "Contact Us",
     "followUs": "Follow us for updates"
-  },
-  "rooms": {
-    "economySingle": {
-      "title": "Small Single Room",
-      "description": "Cozy and well-equipped room perfect for solo travelers. Features include minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.",
-      "size": "16 m²",
-      "beds": "1 Twin Bed",
-      "occupancy": "1 Person",
-      "view": "City View"
-    },
-    "superiorSingle": {
-      "title": "Superior Single Room",
-      "description": "Spacious single room with enhanced comfort. Features include minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.",
-      "size": "21 m²",
-      "beds": "1 Twin Bed",
-      "occupancy": "1 Person",
-      "view": "City View"
-    },
-    "economyDouble": {
-      "title": "Standard Double Room",
-      "description": "Comfortable double room ideal for couples or friends. Features include 2 twin beds, minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV, air conditioning, and complimentary Wi-Fi. Children's cribs available on request.",
-      "size": "16 m²",
-      "beds": "2 Twin Beds",
-      "occupancy": "2 People",
-      "view": "City View"
-    },
-    "superiorDouble": {
-      "title": "Superior Double Room",
-      "description": "Spacious and elegantly decorated double room with enhanced amenities. Features include 2 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV, air conditioning, and complimentary Wi-Fi. Crib available on request.",
-      "size": "21 m²",
-      "beds": "2 Twin Beds",
-      "occupancy": "2 People",
-      "view": "City View"
-    },
-    "triple": {
-      "title": "Triple Room",
-      "description": "Spacious family room accommodating up to 3 adults and 2 children. Features include 3 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub, flat-screen TV, air conditioning, and complimentary Wi-Fi. Cribs available on request.",
-      "size": "26 m²",
-      "beds": "3 Twin Beds",
-      "occupancy": "3 Adults + 2 Children",
-      "view": "City View"
-    },
-    "suite": {
-      "title": "King Suite",
-      "description": "Our most luxurious accommodation featuring a separate living area and private balcony. Includes 1 king bed (extra-long), coffee machine, minibar, desk, walk-in closet, bathroom with both bathtub and shower, flat-screen TV, air conditioning, and complimentary Wi-Fi.",
-      "size": "58 m²",
-      "beds": "1 King Bed + Living Area",
-      "occupancy": "2 People",
-      "view": "Panoramic City View with Balcony"
-    }
   }
 }
