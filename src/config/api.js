@@ -1,5 +1,6 @@
 // API Configuration
 // Uses HTTPS backend subdomain
+// Force rebuild to ensure correct URL is used in production
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://backend.palaisroyal.com.tn';
 
 export const API_ENDPOINTS = {
