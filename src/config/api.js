@@ -1,6 +1,6 @@
 // API Configuration
-// Always uses VPS IP directly
-const API_BASE_URL =  'http://213.136.91.78:5040';
+// Uses HTTPS backend subdomain
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://backend.palaisroyal.com.tn';
 
 export const API_ENDPOINTS = {
   RESERVATIONS: `${API_BASE_URL}/api/reservations`,
