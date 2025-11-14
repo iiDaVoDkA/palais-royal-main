@@ -81,26 +81,26 @@ const RoomDetails = () => {
           </div>
 
           <h2>{t("roomDetails.descriptionHeading")}</h2>
-          <p>{room.description}</p>
+          <p>{t(room.descriptionKey)}</p>
 
           {/* Room Info */}
           {room.roomInfo && (
             <div className={styles.roomInfoBox}>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t("roomDetails.roomSize")}</span>
-                <span className={styles.infoValue}>{room.roomInfo.size}</span>
+                <span className={styles.infoValue}>{t(room.roomInfo.sizeKey)}</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t("roomDetails.beds")}</span>
-                <span className={styles.infoValue}>{room.roomInfo.beds}</span>
+                <span className={styles.infoValue}>{t(room.roomInfo.bedsKey)}</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t("roomDetails.occupancy")}</span>
-                <span className={styles.infoValue}>{room.roomInfo.occupancy}</span>
+                <span className={styles.infoValue}>{t(room.roomInfo.occupancyKey)}</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>{t("roomDetails.view")}</span>
-                <span className={styles.infoValue}>{room.roomInfo.view}</span>
+                <span className={styles.infoValue}>{t(room.roomInfo.viewKey)}</span>
               </div>
             </div>
           )}

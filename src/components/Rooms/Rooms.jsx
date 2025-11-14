@@ -36,7 +36,6 @@ const Rooms = () => {
 
               <div className={styles.overlayText}>
                 <h3>{room.title}</h3>
-                <p className={styles.roomDescription}>{room.description}</p>
 
                 <button
                   className={styles.detailsButton}
