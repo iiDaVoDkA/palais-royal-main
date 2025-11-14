@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Booking from "./pages/Booking/Booking";
+import ComingSoon from "./pages/ComingSoon/ComingSoon";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { useTranslation } from "react-i18next";
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About/>} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
 
 
 

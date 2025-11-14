@@ -272,6 +272,14 @@
     "home": "Home",
     "rooms": "Rooms"
   },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We're working on something special",
+    "description": "This feature is currently under development. We're working hard to bring you an amazing experience. Stay tuned for updates!",
+    "backHome": "Back to Home",
+    "contactUs": "Contact Us",
+    "followUs": "Follow us for updates"
+  },
   "rooms": {
     "economySingle": {
       "title": "Small Single Room",

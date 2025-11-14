@@ -347,6 +347,14 @@
     "home": "Accueil",
     "rooms": "Chambres"
   },
+  "comingSoon": {
+    "title": "Bientôt Disponible",
+    "subtitle": "Nous travaillons sur quelque chose de spécial",
+    "description": "Cette fonctionnalité est actuellement en développement. Nous travaillons dur pour vous offrir une expérience incroyable. Restez à l'écoute pour les mises à jour!",
+    "backHome": "Retour à l'Accueil",
+    "contactUs": "Contactez-nous",
+    "followUs": "Suivez-nous pour les mises à jour"
+  },
   "rooms": {
     "economySingle": {
       "title": "Petite Chambre Simple",

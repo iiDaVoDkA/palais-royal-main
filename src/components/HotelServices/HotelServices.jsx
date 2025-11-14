@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./HotelServices.module.scss";
 import { useTranslation } from "react-i18next";
 
@@ -23,6 +24,7 @@ const servicesData = [
 
 const HotelServices = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <section className={styles.servicesSection}>
@@ -46,7 +48,12 @@ const HotelServices = () => {
               <p className={styles.subheading}>{data.subheading}</p>
               <h3 className={styles.title}>{data.title}</h3>
               <p className={styles.description}>{data.description}</p>
-              <button className={styles.btn}>{data.buttonText}</button>
+              <button 
+                className={styles.btn}
+                onClick={() => navigate('/coming-soon')}
+              >
+                {data.buttonText}
+              </button>
             </div>
           </div>
         );
