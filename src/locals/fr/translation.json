@@ -273,11 +273,12 @@
       "email": "reservation@palaisroyal.com.tn",
       "reset": "Réinitialiser",
       "submit": "Envoyer le message",
-      
-        "name": "Nom",
-        "subject": "Sujet",
-        "message": "Message"
-      
+      "name": "Nom",
+      "subject": "Sujet",
+      "message": "Message",
+      "sending": "Envoi en cours...",
+      "successMessage": "Votre message a été envoyé avec succès ! Nous vous répondrons bientôt.",
+      "errorMessage": "Échec de l'envoi du message. Veuillez réessayer."
     },
     "roomDetails": {
       "heroTitle": "Détails de la chambre",

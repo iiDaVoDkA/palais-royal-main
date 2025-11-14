@@ -267,7 +267,10 @@
         "name": "Name",
         "subject": "Subject",
         "message": "Message",
-        "submit": "Send Message"
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "successMessage": "Your message has been sent successfully! We'll get back to you soon.",
+        "errorMessage": "Failed to send message. Please try again."
     },
     "roomDetails": {
         "heroTitle": "Room Details",
