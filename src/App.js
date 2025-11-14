@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Booking from "./pages/Booking/Booking";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { useTranslation } from "react-i18next";
 
 
@@ -20,7 +21,8 @@ function App() {
   return (
     <div dir={currentDir}>
     <Router>
-            <Navbar />
+      <ScrollToTop />
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />

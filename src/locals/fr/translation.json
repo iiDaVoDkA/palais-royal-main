@@ -113,9 +113,9 @@
     },
     "contact": {
       "title": "Contactez-Nous",
-      "address": "Route Mahdia Km 1, 3099 Sfax, Tunisie",
-      "phone": "Téléphone : +216 70 222 000",
-      "email": "E-mail : info@hotelpalaisroyal.com"
+      "address": "Route Mahdia (Avenue Habib Bouguatfa), Sfax 3000, Tunisie",
+      "phone": "Téléphone : +216 74 400 444",
+      "email": "E-mail : reservation@palaisroyal.com.tn"
     },
     "socialMedia": {
       "facebook": "Facebook",
@@ -218,11 +218,11 @@
       "emailPrompt": "Envoyez-nous un e-mail",
       "mainHeading": "Nous aimerions avoir de vos nouvelles",
       "needHelp": "Besoin d'assistance?",
-      "description": "Notre équipe est dédiée à rendre votre séjour exceptionnel. N’hésitez pas à nous contacter pour toute demande.",
+      "description": "Notre équipe est dédiée à rendre votre séjour exceptionnel. N'hésitez pas à nous contacter pour toute demande.",
       "contactUs": "Contactez-nous",
-      "address": "Route Mahdia Km 1, 3099 Sfax, Tunisie",
-      "phone": "Téléphone",
-      "email": "E-mail",
+      "address": "Route Mahdia (Avenue Habib Bouguatfa), Sfax 3000, Tunisie",
+      "phone": "+216 74 400 444",
+      "email": "reservation@palaisroyal.com.tn",
       "reset": "Réinitialiser",
       "submit": "Envoyer le message",
       
@@ -346,5 +346,55 @@
   "breadcrumb": {
     "home": "Accueil",
     "rooms": "Chambres"
+  },
+  "rooms": {
+    "economySingle": {
+      "title": "Petite Chambre Simple",
+      "description": "Chambre confortable et bien équipée, parfaite pour les voyageurs seuls. Comprend minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
+      "size": "16 m²",
+      "beds": "1 Lit Simple",
+      "occupancy": "1 Personne",
+      "view": "Vue sur la Ville"
+    },
+    "superiorSingle": {
+      "title": "Chambre Simple Supérieure",
+      "description": "Chambre simple spacieuse avec confort amélioré. Comprend minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat avec chaînes satellite, climatisation et Wi-Fi gratuit.",
+      "size": "21 m²",
+      "beds": "1 Lit Simple",
+      "occupancy": "1 Personne",
+      "view": "Vue sur la Ville"
+    },
+    "economyDouble": {
+      "title": "Chambre Double Standard",
+      "description": "Chambre double confortable, idéale pour les couples ou les amis. Comprend 2 lits simples, minibar, bureau, dressing, douche, articles de toilette gratuits, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
+      "size": "16 m²",
+      "beds": "2 Lits Simples",
+      "occupancy": "2 Personnes",
+      "view": "Vue sur la Ville"
+    },
+    "superiorDouble": {
+      "title": "Chambre Double Supérieure",
+      "description": "Chambre double spacieuse et élégamment décorée avec équipements améliorés. Comprend 2 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire et chaussons, télévision à écran plat, climatisation et Wi-Fi gratuit. Lit bébé disponible sur demande.",
+      "size": "21 m²",
+      "beds": "2 Lits Simples",
+      "occupancy": "2 Personnes",
+      "view": "Vue sur la Ville"
+    },
+    "triple": {
+      "title": "Chambre Triple",
+      "description": "Chambre familiale spacieuse pouvant accueillir jusqu'à 3 adultes et 2 enfants. Comprend 3 lits simples, minibar, bureau, dressing, salle de bain privée avec baignoire, télévision à écran plat, climatisation et Wi-Fi gratuit. Lits bébé disponibles sur demande.",
+      "size": "26 m²",
+      "beds": "3 Lits Simples",
+      "occupancy": "3 Adultes + 2 Enfants",
+      "view": "Vue sur la Ville"
+    },
+    "suite": {
+      "title": "Suite King",
+      "description": "Notre hébergement le plus luxueux avec un salon séparé et un balcon privé. Comprend 1 lit king size (extra-long), machine à café, minibar, bureau, dressing, salle de bain avec baignoire et douche, télévision à écran plat, climatisation et Wi-Fi gratuit.",
+      "size": "58 m²",
+      "beds": "1 Lit King + Salon",
+      "occupancy": "2 Personnes",
+      "view": "Vue Panoramique sur la Ville avec Balcon"
+    }
   }
 }

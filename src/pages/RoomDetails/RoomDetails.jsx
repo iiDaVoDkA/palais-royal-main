@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { roomsData } from "../../data/roomsData";
 import styles from "./RoomDetails.module.scss";
 import hotelMainImg from "../../assets/images/hero.jpg";
@@ -8,22 +8,38 @@ import Footer from "../../components/Footer/Footer";
 import LazyImage from "../../components/LazyImage/LazyImage";
 import { useTranslation } from "react-i18next";
 
+// Note: Removed spa, gym, playground as hotel doesn't have these facilities
 const facilities = [
     { label: "roomDetails.facilities.airConditioner", icon: "pi pi-sun" },
-    { label: "roomDetails.facilities.swimmingPool", icon: "pi pi-water" },
-    { label: "roomDetails.facilities.gym", icon: "pi pi-heart-fill" },
     { label: "roomDetails.facilities.parking", icon: "pi pi-car" },
     { label: "roomDetails.facilities.security", icon: "pi pi-lock" },
-    { label: "roomDetails.facilities.playground", icon: "pi pi-user" },
 ];
 
 const RoomDetails = () => {
     const { t } = useTranslation();
     const { slug } = useParams();
+    const navigate = useNavigate();
 
     // Find the room by slug
     const room = roomsData.find((r) => r.slug === slug);
     const [selectedImg, setSelectedImg] = useState(room?.images[0]);
+    
+    // Booking form state
+    const [bookingCheckIn, setBookingCheckIn] = useState("");
+    const [bookingCheckOut, setBookingCheckOut] = useState("");
+    
+    // Handle booking button click
+    const handleBookNow = () => {
+      const params = new URLSearchParams();
+      if (bookingCheckIn) params.append('checkIn', bookingCheckIn);
+      if (bookingCheckOut) params.append('checkOut', bookingCheckOut);
+      params.append('roomType', slug);
+      
+      navigate(`/booking?${params.toString()}`);
+    };
+    
+    // Set minimum date to today
+    const today = new Date().toISOString().split('T')[0];
 
     // Fallback if no room found
     if (!room) {
@@ -137,16 +153,26 @@ const RoomDetails = () => {
           {/* Booking Form */}
           <div className={styles.bookingForm}>
             <h3>{t("roomDetails.checkIn")}</h3>
-            <input type="date" />
+            <input 
+              type="date" 
+              value={bookingCheckIn}
+              onChange={(e) => setBookingCheckIn(e.target.value)}
+              min={today}
+            />
             <h3>{t("roomDetails.checkOut")}</h3>
-            <input type="date" />
+            <input 
+              type="date" 
+              value={bookingCheckOut}
+              onChange={(e) => setBookingCheckOut(e.target.value)}
+              min={bookingCheckIn || today}
+            />
             <h3>{t("roomDetails.guests")}</h3>
             <select>
               <option value="1">{t("roomDetails.oneGuest")}</option>
               <option value="2">{t("roomDetails.twoGuests")}</option>
               <option value="3">{t("roomDetails.threeGuests")}</option>
             </select>
-            <button>{t("roomDetails.bookNow")}</button>
+            <button onClick={handleBookNow}>{t("roomDetails.bookNow")}</button>
           </div>
 
           {/* Compare Rooms - Show other available rooms */}

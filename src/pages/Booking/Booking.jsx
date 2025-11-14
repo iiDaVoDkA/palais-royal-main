@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import styles from "./Booking.module.scss";
 import hotelMainImg from "../../assets/images/hero.jpg";
@@ -23,6 +24,7 @@ function dateDiffInNights(start, end) {
 
 const Booking = () => {
   const { t, i18n } = useTranslation();
+  const [searchParams] = useSearchParams();
   const [isSubmitting, setIsSubmitting] = useState(false);
   
   // ---------------------
@@ -40,6 +42,24 @@ const Booking = () => {
   // ---------------------
   const [checkIn, setCheckIn]   = useState("");
   const [checkOut, setCheckOut] = useState("");
+
+  // Read URL parameters and pre-fill dates
+  useEffect(() => {
+    const urlCheckIn = searchParams.get('checkIn');
+    const urlCheckOut = searchParams.get('checkOut');
+    const urlRoomType = searchParams.get('roomType');
+    
+    if (urlCheckIn) setCheckIn(urlCheckIn);
+    if (urlCheckOut) setCheckOut(urlCheckOut);
+    if (urlRoomType && rooms.length > 0) {
+      // Update first room's type if room type is provided
+      setRooms(prevRooms => {
+        const newRooms = [...prevRooms];
+        newRooms[0].roomType = urlRoomType;
+        return newRooms;
+      });
+    }
+  }, [searchParams]);
 
   // ---------------------
   // 3) Rooms Array

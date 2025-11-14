@@ -1,109 +1,131 @@
 // src/data/roomsData.js
+// Real data based on Hotel Palais Royal specifications
 
 export const roomsData = [
     {
       slug: "economy-single",
-      title: "Economy Single Room",
+      title: "Small Single Room",
+      titleKey: "rooms.economySingle.title",
       images: [
         require("../assets/images/Rooms/single-standard/1.JPG"),
         require("../assets/images/Rooms/single-standard/2.JPG"),
         require("../assets/images/Rooms/single-standard/3.JPG"),
         require("../assets/images/Rooms/single-standard/4.JPG"),
       ],
-      description: `A cozy and well-equipped room with a queen bed, perfect 
-  for solo travelers or business guests seeking comfort and convenience. 
-  Enjoy private bathroom, complimentary Wi-Fi, flat-screen TV, and more.`,
+      descriptionKey: "rooms.economySingle.description",
+      description: `Cozy and well-equipped room perfect for solo travelers. Features include minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.`,
   
-      // Additional info
       roomInfo: {
-        size: "300 Sq ft",
-        beds: "1 Queen Bed",
+        sizeKey: "rooms.economySingle.size",
+        size: "16 m²",
+        bedsKey: "rooms.economySingle.beds",
+        beds: "1 Twin Bed",
+        occupancyKey: "rooms.economySingle.occupancy",
         occupancy: "1 Person",
+        viewKey: "rooms.economySingle.view",
         view: "City View",
       },
     },
     {
       slug: "superior-single",
       title: "Superior Single Room",
+      titleKey: "rooms.superiorSingle.title",
       images: [
         require("../assets/images/Rooms/single-sup/1.JPG"),
         require("../assets/images/Rooms/single-sup/2.JPG"),
         require("../assets/images/Rooms/single-sup/3.JPG"),
         require("../assets/images/Rooms/single-sup/4.JPG"),
       ],
-      description: `Offering additional space and comfort, this room 
-  features a king bed and luxurious amenities for a relaxing stay. 
-  Includes a private bathroom with bathtub and 24-hour room service.`,
+      descriptionKey: "rooms.superiorSingle.description",
+      description: `Spacious single room with enhanced comfort. Features include minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV with satellite channels, air conditioning, and complimentary Wi-Fi.`,
   
       roomInfo: {
-        size: "350 Sq ft",
-        beds: "1 King Bed",
+        sizeKey: "rooms.superiorSingle.size",
+        size: "21 m²",
+        bedsKey: "rooms.superiorSingle.beds",
+        beds: "1 Twin Bed",
+        occupancyKey: "rooms.superiorSingle.occupancy",
         occupancy: "1 Person",
+        viewKey: "rooms.superiorSingle.view",
         view: "City View",
       },
     },
     {
       slug: "economy-double",
-      title: "Economy Double Room",
+      title: "Standard Double Room",
+      titleKey: "rooms.economyDouble.title",
       images: [
         require("../assets/images/Rooms/double-standard/1.JPG"),
         require("../assets/images/Rooms/double-standard/2.JPG"),
         require("../assets/images/Rooms/double-standard/3.JPG"),
         require("../assets/images/Rooms/double-standard/4.JPG"),
       ],
-      description: `Designed for couples or friends, this room includes either 
-  two single beds or one queen bed, providing ample comfort and privacy. 
-  Enjoy modern decor and convenient in-room facilities.`,
+      descriptionKey: "rooms.economyDouble.description",
+      description: `Comfortable double room ideal for couples or friends. Features include 2 twin beds, minibar, desk, walk-in closet, shower, free toiletries, flat-screen TV, air conditioning, and complimentary Wi-Fi. Children's cribs available on request.`,
   
       roomInfo: {
-        size: "400 Sq ft",
-        beds: "1 Queen or 2 Singles",
+        sizeKey: "rooms.economyDouble.size",
+        size: "16 m²",
+        bedsKey: "rooms.economyDouble.beds",
+        beds: "2 Twin Beds",
+        occupancyKey: "rooms.economyDouble.occupancy",
         occupancy: "2 People",
+        viewKey: "rooms.economyDouble.view",
         view: "City View",
       },
     },
     {
       slug: "superior-double",
       title: "Superior Double Room",
+      titleKey: "rooms.superiorDouble.title",
       images: [
         require("../assets/images/Rooms/double-sup/1.JPG"),
         require("../assets/images/Rooms/double-sup/2.JPG"),
         require("../assets/images/Rooms/double-sup/3.JPG"),
         require("../assets/images/Rooms/double-sup/4.JPG"),
       ],
-      description: `Spacious and elegantly decorated, this room features a king bed 
-  and superior amenities to enhance your stay. Perfect for those seeking 
-  a bit more luxury and style.`,
+      descriptionKey: "rooms.superiorDouble.description",
+      description: `Spacious and elegantly decorated double room with enhanced amenities. Features include 2 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub and slippers, flat-screen TV, air conditioning, and complimentary Wi-Fi. Crib available on request.`,
   
       roomInfo: {
-        size: "450 Sq ft",
-        beds: "1 King Bed",
+        sizeKey: "rooms.superiorDouble.size",
+        size: "21 m²",
+        bedsKey: "rooms.superiorDouble.beds",
+        beds: "2 Twin Beds",
+        occupancyKey: "rooms.superiorDouble.occupancy",
         occupancy: "2 People",
+        viewKey: "rooms.superiorDouble.view",
         view: "City View",
       },
     },
     {
       slug: "triple",
       title: "Triple Room",
+      titleKey: "rooms.triple.title",
       images: [
         require("../assets/images/Rooms/triple/1.JPG"),
         require("../assets/images/Rooms/triple/2.JPG"),
         require("../assets/images/Rooms/triple/3.JPG"),
         require("../assets/images/Rooms/triple/4.JPG"),
       ],
-      description: `Ideal for small families or groups, the Triple Room offers three comfortable 
-  beds and extra space to accommodate multiple guests. All modern amenities included.`,
+      descriptionKey: "rooms.triple.description",
+      description: `Spacious family room accommodating up to 3 adults and 2 children. Features include 3 twin beds, minibar, desk, walk-in closet, private bathroom with bathtub, flat-screen TV, air conditioning, and complimentary Wi-Fi. Cribs available on request.`,
   
       roomInfo: {
-        size: "500 Sq ft",
-        beds: "3 Single Beds (or 1 Queen + 1 Single)",
-        occupancy: "3 People",
+        sizeKey: "rooms.triple.size",
+        size: "26 m²",
+        bedsKey: "rooms.triple.beds",
+        beds: "3 Twin Beds",
+        occupancyKey: "rooms.triple.occupancy",
+        occupancy: "3 Adults + 2 Children",
+        viewKey: "rooms.triple.view",
         view: "City View",
       },
     },
     {
       slug: "suite",
-      title: "Suite",
+      title: "King Suite",
+      titleKey: "rooms.suite.title",
       images: [
         require("../assets/images/Rooms/suite/1.JPG"),
         require("../assets/images/Rooms/suite/2.JPG"),
@@ -111,15 +133,18 @@ export const roomsData = [
         require("../assets/images/Rooms/suite/4.JPG"),
         require("../assets/images/Rooms/suite/5.JPG"),
       ],
-      description: `The ultimate indulgence, our Suite provides a luxurious escape 
-  with a separate living area, refined furnishings, and superior amenities. 
-  Some suites include a private balcony with stunning views of the city.`,
+      descriptionKey: "rooms.suite.description",
+      description: `Our most luxurious accommodation featuring a separate living area and private balcony. Includes 1 king bed (extra-long), coffee machine, minibar, desk, walk-in closet, bathroom with both bathtub and shower, flat-screen TV, air conditioning, and complimentary Wi-Fi.`,
   
       roomInfo: {
-        size: "600 Sq ft",
+        sizeKey: "rooms.suite.size",
+        size: "58 m²",
+        bedsKey: "rooms.suite.beds",
         beds: "1 King Bed + Living Area",
+        occupancyKey: "rooms.suite.occupancy",
         occupancy: "2 People",
-        view: "Panoramic City View",
+        viewKey: "rooms.suite.view",
+        view: "Panoramic City View with Balcony",
       },
     },
   ];
