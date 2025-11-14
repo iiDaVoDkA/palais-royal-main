@@ -29,8 +29,8 @@ jobs:
       
     - name: Verify build contains correct API URL
       run: |
-        echo "Checking if build contains 213.136.91.78..."
-        grep -r "213.136.91.78" build/static/js/ || (echo "ERROR: API URL not found in build!" && exit 1)
+        echo "Checking if build contains backend.palaisroyal.com.tn..."
+        grep -r "backend.palaisroyal.com.tn" build/static/js/ || (echo "ERROR: API URL not found in build!" && exit 1)
 
     - name: Add VPS to known hosts
       env:
